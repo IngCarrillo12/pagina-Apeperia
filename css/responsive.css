@@ -1,0 +1,108 @@
+@media screen and (min-width:1024px) {
+    @media screen and (max-width:1434px) {
+        .head, .llamada{
+            background: url(../img/bg-intro.jpg)no-repeat;
+            border:none;
+        }
+    }
+    .head {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+        position: fixed;
+        height: 70px;
+    }
+    .head__enlace {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .llamada {
+        padding-top: 150px;
+    }
+    .llamada__titulo {
+        font-size: 3.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    .llamada__texto {
+        font-size: 1.25rem;
+        line-height: normal;
+        margin-bottom: 2.5rem;
+        width: 55%;
+    }
+    .diferenciales{
+        background-color: var( --background-ceniza-claro);
+    }
+    .sobre_nosotros{
+        display:flex;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .sobre_nosotros__contenido{
+        padding-right: 4rem;
+        padding-left: 0;
+    }
+
+    .sobre_nosotros__titulo{
+        text-align:start;
+    }
+    .sobre_nosotros__imagen{
+        display: block;
+    }
+    .planes__tarjetas{
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .tarjetas{
+        width: calc(33.33% - 1rem);
+        box-shadow: 0 2px 10px 2px #00000010;
+    }
+    .tarjetas__contenido{
+        padding: 0 2rem;
+    }
+    .institucional{
+        padding-left: 4rem;
+        padding-right: 3rem;
+    }
+    .institucional__contenido{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .institucional__descrepcion{
+        text-align: start;
+        padding-left: 2rem;
+    }
+    .institucional__direccion{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+        padding-right: 4rem;
+        font-size: 1.5rem;
+    }
+    .institucional__video{
+        width: 50%;
+    }
+    .container{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .footer{
+        padding-top: 1rem;
+    }
+    .footer__contenido{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

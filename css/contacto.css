@@ -1,0 +1,13 @@
+.contacto{
+    background-color: var(--background-blanco);
+}
+
+.contacto__texto{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.contacto__boton{
+    color: var(--boton-rojo);
+    border-color: var(--boton-rojo);
+    margin: 0 auto;
+}

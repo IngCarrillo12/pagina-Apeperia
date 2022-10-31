@@ -1,0 +1,31 @@
+.diferenciales{
+    background-color: var(--background-blanco);
+}
+.diferenciales__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.diferenciales__item{
+    max-width: 350px;
+    padding: 2rem 2rem 2rem 5rem;
+}
+.item__titulo{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--fuente-ceniza-claro);
+    padding-bottom: 1.2rem;
+}
+.item__texto{
+    line-height: normal;
+}
+.diferenciales__item-reloj{
+    background: url(../img/icono-reloj.png) no-repeat top 1.5rem left 2.5rem;
+}
+.diferenciales__item-dinero{
+    background: url(../img/icono-dinero.png)no-repeat top 1.5rem left 2.5rem;
+}
+.diferenciales__item-quimica{
+    background: url(../img/icono-quimica.png) no-repeat top 1.5rem left 2.5rem;
+}

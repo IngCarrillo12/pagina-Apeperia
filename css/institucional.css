@@ -1,0 +1,25 @@
+.institucional{
+    background-color: var(--background-blanco);
+}
+
+.institucional__descrepcion{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.institucional__direccion{
+    text-align: center;
+    line-height: normal;
+    font-size: 1.3rem;
+    color: var(--fuente-ceniza-claro);
+}
+.institucional__contacto{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.institucional__contacto-telefono,.institucional__contacto-email{
+    text-decoration:underline;
+    color: #0000EE;
+}
+.institucional__video{
+    width: 100vw;
+}
